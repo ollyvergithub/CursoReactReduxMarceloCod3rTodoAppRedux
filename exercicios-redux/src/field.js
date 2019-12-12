@@ -15,12 +15,11 @@ class Field extends Component {
 }
 function mapStateToProps(state) {
     return {
-        value: state.field.value2
+        value: state.field.value
     }
 }
 
 function mapDispatchToProps(dispatch) {
-
     return bindActionCreators({changeValue}, dispatch)
     
 }
